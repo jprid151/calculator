@@ -153,10 +153,14 @@ namespace WindowsFormsApp1
         {
             try
             {
-                System.Convert.ToDouble(sumBox.Text);
+                
                 Operation op1 = operations.Peek();
+                if (op1.num2 != 0)
+                {
+                    System.Convert.ToDouble(sumBox.Text);
+                }
                 operations.Pop();
-                if (sumBox.Text != "")
+                if (sumBox.Text != "" && op1.num2 != 0)
                 {
                     op1.setnu2(System.Convert.ToDouble(sumBox.Text));
                 }
@@ -223,8 +227,8 @@ namespace Extensions
 
 abstract class Operation
 {
-    public double num1;
-    public double num2;
+    public double num1 = 2;
+    public double num2  = 2;
 
     public double result;
     public void setnu2(double x)
