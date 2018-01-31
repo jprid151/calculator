@@ -151,15 +151,23 @@ namespace WindowsFormsApp1
 
         private void btneq_Click(object sender, EventArgs e)
         {
-            Operation op1 = operations.Peek();
-            operations.Pop();
-            if (sumBox.Text != "")
+            try
             {
-             op1.setnu2(System.Convert.ToDouble(sumBox.Text));
+                System.Convert.ToDouble(sumBox.Text);
+                Operation op1 = operations.Peek();
+                operations.Pop();
+                if (sumBox.Text != "")
+                {
+                    op1.setnu2(System.Convert.ToDouble(sumBox.Text));
+                }
+                op1.Solve();
+                sumBox.Text = op1.result.ToString();
+                dispBox.Text = "";
             }
-            op1.Solve();
-            sumBox.Text = op1.result.ToString();
-            dispBox.Text = "";
+            catch
+            {
+
+            }
         }
         private void clearText(double x)
         {
