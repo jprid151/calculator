@@ -1,0 +1,9 @@
+C:\Users\megam\source\repos\calculator\calculator\obj\Debug\calculator.csprojResolveAssemblyReference.cache
+C:\Users\megam\source\repos\calculator\calculator\obj\Debug\WindowsFormsApp1.Properties.Resources.resources
+C:\Users\megam\source\repos\calculator\calculator\obj\Debug\calculator.csproj.GenerateResource.Cache
+C:\Users\megam\source\repos\calculator\calculator\obj\Debug\calculator.csproj.CoreCompileInputs.cache
+C:\Users\megam\source\repos\calculator\calculator\bin\Debug\calculator.exe
+C:\Users\megam\source\repos\calculator\calculator\bin\Debug\calculator.pdb
+C:\Users\megam\source\repos\calculator\calculator\obj\Debug\calculator.exe
+C:\Users\megam\source\repos\calculator\calculator\obj\Debug\calculator.pdb
+C:\Users\megam\source\repos\calculator\calculator\obj\Debug\WindowsFormsApp1.Form1.resources
